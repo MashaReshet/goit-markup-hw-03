@@ -4,8 +4,18 @@ body {
     font-family: "Roboto", sans-serif;   
 }
 
+
+
  header {
     flex-shrink: 0;
+    height: 72px;
+    flex-shrink: 0;
+    border-bottom: 1px solid  #E7E9FC;
+background:  #FFF;
+display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+
   
  }  
 
