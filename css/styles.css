@@ -3,8 +3,8 @@ body {
     background-color:  #FFFFFF;
     font-family: "Roboto", sans-serif;   
 }
-.nav_link {
-    border-bottom: 1px solid  #E7E9FC;
+.nav_name {
+    border-bottom: 1px solid #e7e9fc;
 
 }
 
@@ -203,6 +203,7 @@ letter-spacing: 0.02em;
     background-color: #F4F4FD;
     padding: 120px 0;
     display: flex;
+    gap: 24px; 
    
 }
 .container_two {
@@ -238,7 +239,7 @@ text-align: center;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    gap: 24px;
+    
 }
 
 
@@ -278,7 +279,7 @@ text-align: center;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;  
-    margin-bottom: 8px;
+    margin-bottom: 72px;
  }
 .app-item {
     color:  #434455;
@@ -320,9 +321,9 @@ letter-spacing: 0.02em;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
+    
     margin-bottom: 16px;
-
+    display: inline-block;
 }
 footer {
  
