@@ -59,6 +59,7 @@ gap: 40px;
     line-height: 1.17px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-bottom: 16px;
    
 }
 
@@ -322,7 +323,7 @@ footer {
 background:  #2E2F42;
 }
 
-.name-log {
+.name-loges {
     display: inline-block;
     font-family: "Raleway", sans-serif;
 font-weight: 700;
