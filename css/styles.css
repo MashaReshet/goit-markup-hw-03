@@ -398,10 +398,12 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     margin-bottom: 16px;   
-     display: inline-block;
+     
    
 }
-
+span {
+    display: inline-block;
+}
 
 footer {
 background:  #2E2F42;
