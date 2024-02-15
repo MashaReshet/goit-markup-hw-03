@@ -315,7 +315,7 @@ letter-spacing: 0.02em;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;  
 }
-a .logo {
+a .logo .name-logo {
     display: inline-block;
 }
 footer {
