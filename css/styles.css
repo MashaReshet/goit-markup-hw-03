@@ -279,8 +279,14 @@ text-align: center;
     flex-wrap: wrap;    
     column-gap: 24px;
     row-gap: 48px;  
-    width: calc((100% - 48px) / 3);
+    
 }
+.img-item {
+    width: calc((100% - 48px) / 3);
+
+}
+    
+
  .service {
     color: #2E2F42;
     font-size: 20px;  
@@ -334,7 +340,7 @@ letter-spacing: 0.02em;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;    
-    margin-bottom: 16px;   
+    margin-bottom: 16px;  
     
 }
 
