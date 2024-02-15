@@ -44,6 +44,7 @@ gap: 40px;
     text-transform: uppercase;  
     text-decoration: inherit;
     margin-right: 76px;
+    display: inline-block;
 }
 
 .name-logo {
@@ -343,9 +344,8 @@ letter-spacing: 0.02em;
     margin-bottom: 16px;  
     
 }
-.logo-bottom .logotyp {
-    display: inline-block;
-}
+
+
 footer {
 background:  #2E2F42;
 }
