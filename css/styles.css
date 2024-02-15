@@ -322,7 +322,7 @@ footer {
 background:  #2E2F42;
 }
 
-footer .logo{
+.footer-item {
     display: inline-block;
 }
 
