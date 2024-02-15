@@ -3,39 +3,28 @@ body {
     background-color:  #FFFFFF;
     font-family: "Roboto", sans-serif;   
 }
-.nav_name {
-    border-bottom: 1px solid #e7e9fc;
-
-}
-
- header {
+header {
     flex-shrink: 0;
     height: 72px;
     flex-shrink: 0;    
 background:  #FFF;
 display: inline-flex;
 align-items: flex-start;
-gap: 40px;
+gap: 40px; 
+ } 
 
-  
- }  
-img {
-    display: block;
+ h1 h2 h3 p {
+    margin: 0;
+     }
+ .nav_name {
+    border-bottom: 1px solid #e7e9fc;
 }
 
- ul { 
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    display: flex;
-    gap: 40px;
- }
- .container {
+.container {
     display: flex; 
     margin: 0 auto;
     width: 1158px;  
     padding: 0 15px;
-
 
  }
  .nav-saite {
@@ -43,21 +32,8 @@ img {
     align-items: center;
     gap: 40px;
  }
- h1 h2 h3 p {
-margin: 0;
- }
- .name-logo {
-    color:  #2E2F42;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17px; 
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    
-}  
-.logo {
+
+ .logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -69,7 +45,41 @@ margin: 0;
     text-decoration: inherit;
     margin-right: 76px;
 }
-.my-info {
+
+.name-logo {
+    color:  #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    
+}  
+
+ul { 
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    gap: 40px;
+ }
+
+img {
+    display: block;
+}
+
+.menu-item {
+    color: #2e2f42;
+    text-decoration: inherit;
+    padding: 24px 0;
+    
+    }
+ 
+
+
+ .my-info {
     font-style: normal;
 }
 .main-contacts {
@@ -82,12 +92,6 @@ margin: 0;
 
 }
 
-.menu-item {
-color: #2e2f42;
-text-decoration: inherit;
-padding: 24px 0;
-
-}
 .menu-item:hover {
     color: #404bbf;
 }
@@ -111,8 +115,8 @@ padding: 24px 0;
     letter-spacing: 1.12px;
     max-width: 496px;
    
-
 }
+
 .main-contact {
     color: #434455 ;
     font-family: "Roboto", sans-serif;
@@ -122,12 +126,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: inherit;
 }
+
 .main-contact:hover {
     color: #404bbf;
 }
+
 .main-contact:focus {
     color: #404bbf;
 }
+
 button {
     cursor: pointer;
 background:  #4D5AE5;
@@ -138,8 +145,8 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
-
 }
+
 .nav_link {
     display: block;
     min-width: 169px;
@@ -151,61 +158,43 @@ letter-spacing: 0.64px;
 .nav_link:hover {
     background-color: #404BBF;
 }
+
 .nav_link:focus {
     background-color: #404BBF;
 }
+
 .name-item {
-    padding: 120px 0;
-     
-}
-.visually-hidden {
-   display: none;
-}
-.quality-item {
-    display: flex; 
-    gap: 24px;   
-}
-.name-quality-item {
-    width: calc((100% - 72px) / 4);  
-}
-.advantages {
-    
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:  #2E2F42;
-    margin-bottom: 8px;
-    
+    padding: 120px 0;   
 }
 
-.description-quality {
-    color:  #434455;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-.our-team-item {
-    background-color: #FFFFFF ;
-    color:  #2E2F42;
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-}
-.professionals-item {
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+ 
+  .professionals-item {
     background-color: #F4F4FD;
     padding: 120px 0;
     display: flex;
-    gap: 24px; 
-   
+      
 }
+.professional-item {
+    gap: 24px;
+}
+
 .container_two {
-    padding: 32px 0;  
-    
+    padding: 32px 0;     
 }
+
 .professional-name {
     color:  #2E2F42;
     text-align: center;
@@ -229,20 +218,28 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center; 
-
 }
+
 .professionals-foto {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    
+    flex-basis: calc((100% - 72px) / 4) ;
+    border-radius: 0px 0px 4px 4px;    
 }
-
-
+.our-team-item {
+    background-color: #FFFFFF ;
+    color:  #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
 .portfolio-title {
     padding-top: 120px; 
     padding-bottom: 120px;  
 }
+
 .portfolio-item {
     background-color: #F4F4FD;
     color:  #2E2F42;
@@ -253,6 +250,7 @@ text-align: center;
     text-transform: capitalize;  
     margin-bottom: 72px;
 }
+
 .images-item {
     display: flex;
     flex-wrap: wrap;    
@@ -260,14 +258,95 @@ text-align: center;
     row-gap: 48px;
     gap: 24px;
 }
+
 .img-item {
    width: calc((100% - 48px) / 3);
 }
+
 .product {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: none;
-   
+    border-top: none;   
+}
+
+ .banking {
+    color: #2E2F42;
+    font-size: 20px;  
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;  
+    margin-bottom: 72px;
+    
+ }
+
+.app-item {
+    color:  #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+
+
+
+.quality-item {
+    display: flex; 
+    gap: 24px;   
+}
+
+.name-quality-item {
+    width: calc((100% - 72px) / 4);  
+}
+
+.advantages {    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2E2F42;
+    margin-bottom: 8px;    
+}
+
+.description-quality {
+    color:  #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.portfolio-title {
+    padding-top: 120px; 
+    padding-bottom: 120px;  
+}
+
+.portfolio-item {
+    background-color: #F4F4FD;
+    color:  #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;  
+    margin-bottom: 72px;
+}
+
+.images-item {
+    display: flex;
+    flex-wrap: wrap;    
+    column-gap: 24px;
+    row-gap: 48px;
+    gap: 24px;
+}
+
+.img-item {
+   width: calc((100% - 48px) / 3);
+}
+
+.product {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;   
 }
 
  .banking {
@@ -279,6 +358,7 @@ text-align: center;
     margin-bottom: 72px;
     margin-bottom: 8px;
  }
+
 .app-item {
     color:  #434455;
 font-size: 16px;
@@ -292,7 +372,7 @@ letter-spacing: 0.02em;
 }
 
 .footer {
-    color: var(--CLOUD, #F4F4FD);
+    color:  #F4F4FD;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -300,8 +380,9 @@ letter-spacing: 0.02em;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;  
 }
+
 .logo-name {
-    color: var(--NAVY-BLUE, #F4F4FD);
+    color:  #F4F4FD;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -309,9 +390,10 @@ letter-spacing: 0.02em;
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    display: inline-block;
+  
 }
-.logo-item{
+
+.logo-item {
     color:  #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -319,13 +401,12 @@ letter-spacing: 0.02em;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-    margin-bottom: 16px;
-    
+    text-transform: uppercase;    
+    margin-bottom: 16px;    
+    display: inline-block;
 }
+
 footer {
- 
 background:  #2E2F42;
 }
 
