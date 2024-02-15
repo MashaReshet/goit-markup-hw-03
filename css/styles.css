@@ -58,7 +58,7 @@ gap: 40px;
     text-transform: uppercase;
     display: inline-block;
 }
-.img {
+img {
     display: inline-block;
 }
 ul { 
@@ -315,9 +315,8 @@ letter-spacing: 0.02em;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;  
 }
-a .logo .name-logo {
-    display: inline-block;
-}
+
+
 footer {
 background:  #2E2F42;
 }
