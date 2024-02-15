@@ -279,9 +279,7 @@ text-align: center;
     flex-wrap: wrap;    
     column-gap: 24px;
     row-gap: 48px;  
-}
-.img-item {
-   width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
  .service {
     color: #2E2F42;
@@ -323,12 +321,12 @@ letter-spacing: 0.02em;
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-  
+    display: inline-block;
 }
 
 .logo-bottom {
     color:  #4D5AE5;
-    display: inline-block;
+    
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -339,7 +337,6 @@ letter-spacing: 0.02em;
     margin-bottom: 16px;   
     
 }
-
 
 footer {
 background:  #2E2F42;
