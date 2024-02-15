@@ -18,8 +18,10 @@ gap: 40px;
      }
  .nav_name {
     border-bottom: 1px solid #e7e9fc;
-}
-
+} 
+  img {
+    display: block;
+  }
 .container {
     display: flex; 
     margin: 0 auto;
@@ -57,7 +59,7 @@ gap: 40px;
     line-height: 1.17px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    display: inline-block;
+    
 }
 
 ul { 
@@ -280,9 +282,6 @@ text-align: center;
 
 }
 
-img {
-    display: inline-block;
-}
 
   .img_item {
     width: calc((100% - 48px) / 3);
