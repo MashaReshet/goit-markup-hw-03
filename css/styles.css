@@ -20,24 +20,20 @@ header {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .nav-name .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
  
-
-
-    .container {
-        width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-right: auto;
-        margin-left: auto;
-      }
-
-
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
