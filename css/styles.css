@@ -318,11 +318,23 @@ letter-spacing: 0.02em;
     letter-spacing: 0.32px;  
 }
 
-footer {
-background:  #2E2F42;
 
+
+.logo-w {
+    
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;  
+    text-decoration: inherit;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px; 
 }
-
 .name-logos {
 color: #f4f4fd;
 font-family: "Raleway", sans-serif;
@@ -334,7 +346,9 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 
-
+footer {
+    background:  #2E2F42;
+}
 
 
 
