@@ -20,12 +20,15 @@ header {
 
 .nav_name {
     border-bottom: 1px solid #e7e9fc;
-    
-} 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
 
 
     .container {
-        max-width: 1158px;
+        width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
         margin-right: auto;
