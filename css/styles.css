@@ -20,6 +20,7 @@ header {
 
 .nav_name {
     border-bottom: 1px solid #e7e9fc;
+    
 } 
 
 .container {
@@ -37,6 +38,7 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    font-style: normal;
     line-height: 1.17;
     letter-spacing: 0.54em;
     text-transform: uppercase;
@@ -48,18 +50,25 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    font-style: normal;
     line-height: 1.17;
     letter-spacing: 0.54em;
     text-transform: uppercase;
     color: #2e2f42;   
 }
+
+.my-info {
+    font-style: normal;
+}
+
 ul { 
     list-style: none;
     margin: 0;
     padding-left: 0;
     display: flex;
     gap: 40px;
- }
+ } 
+
 .menu-item {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -70,20 +79,25 @@ ul {
     text-decoration: inherit;
     padding: 24px 0;  
 }
+
 .menu-item:hover {
     color: #404bbf; 
 }
+
 .menu-item:focus {
     color: #404bbf;  
 }
+
 .main-contact {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: inherit;
     color: #434455;  
 }
+
 .section_one {
     background: #2e2f42;
     padding: 188px 0;  
@@ -214,6 +228,7 @@ img {
 
 .section_four {
     padding-top: 120px; 
+    
 }
 
 .portfolio {
