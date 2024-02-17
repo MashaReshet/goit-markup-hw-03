@@ -230,7 +230,7 @@ img {
     padding-top: 120px; 
     padding-bottom: 120px;  
     display: inline-block;
-    width: calc((100% - 48px) / 3); 
+     
 
 }
 
@@ -252,6 +252,11 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.img_item {
+
+    width: calc((100% - 48px) / 3);
 }
 
 .service {
