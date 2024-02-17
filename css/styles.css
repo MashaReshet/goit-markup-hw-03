@@ -40,6 +40,7 @@ header {
     line-height: 1.17;
     letter-spacing: 0.54em;
     text-transform: uppercase;
+    text-decoration: inherit;
     color: #4d5ae5;
     margin-right: 76px ;
 }
@@ -66,6 +67,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: inherit;
     padding: 24px 0;  
 }
 .menu-item:hover {
@@ -273,6 +275,7 @@ margin-bottom: 8px;
     text-transform: uppercase;
     color: #4d5ae5; 
     display: inline-block;
+    text-decoration: inherit;
     margin-bottom: 16px;
 }
 
