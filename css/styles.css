@@ -320,15 +320,13 @@ letter-spacing: 0.02em;
 
 footer {
 background:  #2E2F42;
+display: inline-block;
 }
 
 .name-logos {
 color: #f4f4fd;
 }
 
-.footer-item {
-    display: inline-block;
-}
 
 
 
