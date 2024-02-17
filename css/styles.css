@@ -60,8 +60,7 @@ gap: 40px;
     line-height: 1.17px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    margin-bottom: 16px;
-   
+  
 }
 
 ul { 
@@ -324,15 +323,8 @@ footer {
 background:  #2E2F42;
 }
 
-.name-loges {
-    font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.16667;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+footer .name-logo {
 color: #f4f4fd;
-
 }
 
 
