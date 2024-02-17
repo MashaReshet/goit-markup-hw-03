@@ -289,6 +289,10 @@ margin-bottom: 8px;
     background: #2e2f42;
     padding: 100px 0;
 }
+.footer-item {
+display: inline-block;
+}
+
 .logo-w {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -300,7 +304,7 @@ margin-bottom: 8px;
     display: inline-block;
     text-decoration: inherit;
     margin-bottom: 16px;
-    display: inline-block;
+   
 }
 
 .name-logos {
@@ -311,7 +315,7 @@ margin-bottom: 8px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    display: inline-block;
+    
 }
 
 .footer {
