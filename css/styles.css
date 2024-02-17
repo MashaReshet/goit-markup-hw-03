@@ -325,6 +325,13 @@ background:  #2E2F42;
 
 .name-logos {
 color: #f4f4fd;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 
 
