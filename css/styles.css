@@ -5,9 +5,7 @@ body {
 }
 
 header {
-    flex-shrink: 0;
     height: 72px;
-    flex-shrink: 0;    
     background:  #FFF;
     display: inline-flex;
     align-items: flex-start;
@@ -18,7 +16,7 @@ header {
     margin: 0;
 }
 
-.nav_name {
+.nav-name .container {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
@@ -35,11 +33,8 @@ header {
         margin-left: auto;
       }
 
-.nav-saite {
-    display: flex;
-    align-items: center;
 
-}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -103,6 +98,7 @@ ul {
     text-decoration: inherit;
     color: #434455;  
 }
+
 
 .section_one {
     background: #2e2f42;
