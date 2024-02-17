@@ -229,7 +229,8 @@ img {
 .section_four {
     padding-top: 120px; 
     padding-bottom: 120px;  
- 
+    display: inline-block;
+    width: calc((100% - 48px) / 3); 
 
 }
 
@@ -245,9 +246,6 @@ img {
     margin-bottom: 72px;
 }
 
-.img_item {
-    display: inline-block;
-}
 
 .images {
     display: flex;
