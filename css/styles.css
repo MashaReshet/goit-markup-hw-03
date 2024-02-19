@@ -138,8 +138,13 @@ ul {
     max-width: 496px;
     display: flex;
     align-items: center;
+    margin-bottom: 48px;
+
 }
+
+
 .nav_link {
+    font-family: "Roboto", sans-serif;
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
@@ -150,8 +155,12 @@ ul {
     min-width: 169px;
     border: none;  
     background-color: #4d5ae5;
-    cursor: pointer; 
-  
+    cursor: pointer;    
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+ 
 }
 .nav_link:hover {
     background-color: #404BBF;
@@ -227,6 +236,8 @@ img {
 .foto {
     width: calc((100% - 72px) / 4);  
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
 }
 .professional-name {
     font-family: "Roboto", sans-serif;
@@ -238,6 +249,7 @@ img {
     color: #2e2f42;  
     text-align: center;
     margin-bottom: 8px;
+    
 }
 
 .profession {
